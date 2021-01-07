@@ -1,0 +1,60 @@
+{
+  "tag_name": "html",
+  "lang": "en",
+  "dir": "ltr",
+  "nested_element": [
+    {
+      "tag_name": "head",
+      "nested_element": [
+        {
+          "tag_name": "meta",
+          "charset": "utf-8"
+        },
+        {
+          "tag_name": "title",
+          "nested_element": "ANIMATED LOGIN FORM"
+        },
+        {
+          "tag_name": "link",
+          "rel": "stylesheet",
+          "href": "style.css"
+        }
+      ]
+    },
+    {
+      "tag_name": "body",
+      "nested_element": [
+        {
+          "tag_name": "form",
+          "class": "box",
+          "action": "index.htm",
+          "method": "post",
+          "nested_element": [
+            {
+              "tag_name": "h1",
+              "nested_element": "Login"
+            },
+            {
+              "tag_name": "input",
+              "type": "text",
+              "name": " ",
+              "placeholder": "Username"
+            },
+            {
+              "tag_name": "input",
+              "type": "password",
+              "name": " ",
+              "placeholder": "Password"
+            },
+            {
+              "tag_name": "input",
+              "type": "submit",
+              "name": " ",
+              "value": "login"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
